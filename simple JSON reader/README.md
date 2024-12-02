@@ -1,0 +1,2 @@
+# educational-projects
+выасыва
