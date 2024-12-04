@@ -1,7 +1,7 @@
 ## Репозиторий учебных проектов
-- preprocessor - препроцессор, который подставляет содержимое файлов на место #include-директив.
 - log duration - профилировщик
 - painter of folder tree - по пути к папке выводит в поток дерево файлов и каталогов этой папки
+- preprocessor - препроцессор, который подставляет содержимое файлов на место #include-директив.
 - simple INI-file reader - упрощенная бибилотека для чтения ini-файлов
 - simple JSON/XML-file reader - упрощенная бибилотека для чтения json/xml-файлов
 - simple string class - класс MyString упрощенный аналог `std::stirng` - simple string class
