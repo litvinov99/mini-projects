@@ -12,8 +12,8 @@ class LogDuration {
 public:
     using Clock = std::chrono::steady_clock;
 
-    LogDuration(const std::string& entered_name) 
-    : operation_name(entered_name) {
+    LogDuration(const std::string& title) 
+        : operation_name(title) {
     }
 
     ~LogDuration() {
