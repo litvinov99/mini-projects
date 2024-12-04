@@ -20,7 +20,7 @@ void PrintFolderTree(ostream& dst, const path& p, const filesystem::file_status&
 ```C++
 path p = path("a") / path("folder") / path("and") / path("..") / path("a") / path("file.txt");
 ```
-Чтобы упростить выражение был реализован строковый литерал для пути `""_p`:
+Чтобы упростить выражение был определен строковый литерал `""_p` для пути `filesystem::path`:
 ```C++
 path operator""_p(const char* data, std::size_t sz) {
     return path(data, data + sz);
