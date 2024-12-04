@@ -1,7 +1,7 @@
 ## Использование стандартной библиотеки filesystem
 
 Разработана функция `void PrintFolderTree(ostream& dst, const path& p)`, которая принимает на вход путь к папке `p` и выводит в поток, задаваемый параметром `dst`, дерево файлов и каталогов этой папки. Элементы папки выводятся в обратном алфавитном порядке.
-### Реализация
+## Реализация
 Разработана рекурсивная версия функции `PrintFolderTree` со следующей сигнатурой:
 ```C++
 void PrintFolderTree(ostream& dst, const path& p, const filesystem::file_status& status, int offset)
@@ -31,7 +31,7 @@ path operator""_p(const char* data, std::size_t sz) {
 ```C++
 path p = "a"_p / "folder"_p / "and"_p / ".."_p / "a"_p / "file.txt"_p;
 ```
-### Пример использования
+## Пример использования
 Пусть дана следующая структура файлов и каталогов:
 ```MARKDOWN
 test_dir/
