@@ -12,5 +12,6 @@
 - **single linked list** - шаблонный контейнер SingleLinkedList упрощенный аналог `std::forward_list`
 - **stack vector** - шаблонный контейнер StackVector, реализованый на стеке, упрощенный аналог `std::vector`
 - **transport cataloge** - транспорты каталог (в процессе доработки)
+- **simple optional class** - шаблонный класс Optional упрощенный аналог `std::optional`
    
 P.S. Краткое описание README.md есть в каждой папке проекта.
