@@ -1,0 +1,1 @@
+  -LJ:/Yandex_courses/Sprint_14/5/LibJPEG/lib/Release  ImgLibBuildDir/libImgLib.a -ljpeg -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 

@@ -1,0 +1,6 @@
+J:/Yandex_courses/Sprint_14/5/ImgConverter/build/CMakeFiles/imgconv.dir
+J:/Yandex_courses/Sprint_14/5/ImgConverter/build/CMakeFiles/edit_cache.dir
+J:/Yandex_courses/Sprint_14/5/ImgConverter/build/CMakeFiles/rebuild_cache.dir
+J:/Yandex_courses/Sprint_14/5/ImgConverter/build/ImgLibBuildDir/CMakeFiles/ImgLib.dir
+J:/Yandex_courses/Sprint_14/5/ImgConverter/build/ImgLibBuildDir/CMakeFiles/edit_cache.dir
+J:/Yandex_courses/Sprint_14/5/ImgConverter/build/ImgLibBuildDir/CMakeFiles/rebuild_cache.dir
