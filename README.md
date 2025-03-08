@@ -10,6 +10,7 @@
 - **simple smart pointer** - простой класс умного указателя
 - **search server** - модель поискового сервера (в процессе доработки)
 - **simple string class** - класс MyString упрощенный аналог `std::stirng` (в процессе доработки)
+- **simple vector more complicated version** - шаблонный класс Vector c аллокатором
 - **simple vector** - шаблонный контейнер SimpleVector упрощенный аналог `std::vector`
 - **single linked list** - шаблонный контейнер SingleLinkedList упрощенный аналог `std::forward_list`
 - **stack vector** - шаблонный контейнер StackVector, реализованый на стеке, упрощенный аналог `std::vector`
