@@ -1,4 +1,4 @@
-## test runner - это утилита для юнит-тестирования
+## `test runner` - это утилита для юнит-тестирования
 своего рода "мини-фреймворк", предназначенный для тестирования функций, проверки условий и вывода понятных сообщений об ошибках.
 
 ## Назначение
@@ -6,15 +6,15 @@
 - Автоматически печатать содержимое `vector`, `set`, `map`, `unordered_map` — для отладки и диагностики.
 - Упрощает написание юнит-тестов с помощью макросов `ASSERT`, `ASSERT_EQUAL`, `RUN_TEST`
 ## Структура
-1. Пространство имён TestRunnerPrivate
+1. Пространство имён `TestRunnerPrivate`
 ```C++
 namespace TestRunnerPrivate {
   template <typename K, typename V, template <typename, typename> class Map>
   std::ostream& PrintMap(std::ostream& os, const Map<K, V>& m)
 ```
-- Обобщённая функция для вывода map-подобных контейнеров (`std::map`, `std::unordered_map`).
+- Обобщённая функция для вывода `map`-подобных контейнеров (`std::map`, `std::unordered_map`).
 - Используется в перегрузках `operator<<` ниже.
-2. Перегрузка operator<< для стандартных контейнеров
+2. Перегрузка `operator<<` для стандартных контейнеров
 Позволяет печатать `vector`, `set`, `map`, `unordered_map` прямо в поток вывода (`std::cout`, `std::cerr`), например:
 ```C++
 std::vector<int> v = {1, 2, 3};
