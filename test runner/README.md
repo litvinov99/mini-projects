@@ -43,7 +43,7 @@ public:
 `RUN_TEST(tr, func)` запускает тест-функцию `func` через `TestRunner tr`.
 ## Пример использования
 Пример 1 (тестирование структуры данных)
-```С++
+```C++
 #include "test_runner.h"
 #include <vector>
 
