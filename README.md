@@ -1,5 +1,5 @@
 ## Репозиторий мини проектов
-- **bi map** - двунаправленный словарь, класс словаря использует идиому Pimpl
+- **bi map** - двунаправленный словарь (идиома Pimpl)
 - **console manager** - простой консольный файловый менеджер
 - **hash table class** - реализация класса хэш-таблицы
 - **image converter** - конвертер изображений (JPEG, BMP, PPM)
@@ -11,13 +11,13 @@
 - **simple smart pointer** - простой класс умного указателя
 - **search server lite** - упрощенная модель поискового сервера
 - **search server** - расширенная модель поискового сервера
-- **simple string class** - класс MyString упрощенный аналог `std::stirng`
+- **simple string class** - класс MyString
 - **simple vector with smart pointers** - шаблонный класс Vector c простым умным указателем
-- **simple vector** - шаблонный контейнер SimpleVector упрощенный аналог `std::vector`
-- **single linked list** - шаблонный контейнер SingleLinkedList упрощенный аналог `std::forward_list`
-- **stack vector** - шаблонный контейнер StackVector, реализованый на стеке, упрощенный аналог `std::vector`
+- **simple vector** - шаблонный класс SimpleVector
+- **single linked list** - шаблонный контейнер SingleLinkedList
+- **stack vector** - шаблонный класс StackVector, реализованый на стеке
 - **test runner** - утилита для юнит-тестирования
-- **transport cataloge** - транспорты каталог (в процессе доработки)
-- **simple optional class** - шаблонный класс Optional упрощенный аналог `std::optional`
+- **transport cataloge** - транспорты каталог
+- **simple optional class** - шаблонный класс Optional
    
-P.S. Краткое описание README.md есть в каждой папке проекта.
+P.S. README.md есть в каждой папке проекта.
