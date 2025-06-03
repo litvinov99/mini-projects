@@ -12,7 +12,7 @@
 - **search server lite** - упрощенная модель поискового сервера
 - **search server** - расширенная модель поискового сервера
 - **simple string class** - класс MyString упрощенный аналог `std::stirng`
-- **simple vector more complicated version** - шаблонный класс Vector c простым умным указателем
+- **simple vector with smart pointers** - шаблонный класс Vector c простым умным указателем
 - **simple vector** - шаблонный контейнер SimpleVector упрощенный аналог `std::vector`
 - **single linked list** - шаблонный контейнер SingleLinkedList упрощенный аналог `std::forward_list`
 - **stack vector** - шаблонный контейнер StackVector, реализованый на стеке, упрощенный аналог `std::vector`
